@@ -21,6 +21,7 @@ k3,b3 = np.polyfit(c['SepalLengthCm'],c['SepalWidthCm'],1)
 plt.plot(c['SepalLengthCm'],k3*c['SepalLengthCm']+b3,color = 'black')
 plt.xlabel('SepalLengthCm')
 plt.ylabel('SepalWidthCm')
+plt.grid(True)
 plt.legend()
 
 plt.subplot(2,3,2)
